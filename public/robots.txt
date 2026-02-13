@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://edict-website.netlify.app/sitemap-index.xml

@@ -1,0 +1,56 @@
+---
+const steps = [
+  {
+    number: "01",
+    title: "Connect Your Pharmacy",
+    description:
+      "Edict Health integrates with your existing pharmacy management system in days, not months. No workflow disruption, no IT headaches.",
+  },
+  {
+    number: "02",
+    title: "Monitor & Alert",
+    description:
+      "Our platform continuously analyzes prescription data, flagging adherence gaps, risky interactions, and high-risk patients in real time.",
+  },
+  {
+    number: "03",
+    title: "Act & Improve",
+    description:
+      "Receive actionable insights and collaborate with providers to deliver targeted interventions that measurably improve patient outcomes.",
+  },
+];
+---
+
+<section
+  id="how-it-works"
+  class="relative py-32 lg:py-48"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="mb-20">
+      <p class="text-sm tracking-widest text-gray-500 uppercase mb-6">
+        How It Works
+      </p>
+      <h2 class="text-4xl md:text-5xl font-light tracking-tight max-w-2xl">
+        Up and running in three simple steps
+      </h2>
+    </div>
+
+    <!-- Steps -->
+    <div class="border-t border-white/10">
+      {steps.map((step) => (
+        <div class="reveal border-b border-white/10 py-12 md:py-16 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <div class="md:col-span-2">
+            <span class="text-7xl font-extralight text-white/20 leading-none">{step.number}</span>
+          </div>
+          <div class="md:col-span-3">
+            <h3 class="text-base font-medium tracking-wide text-white uppercase">{step.title}</h3>
+          </div>
+          <div class="md:col-span-7">
+            <p class="text-gray-500 font-light leading-relaxed text-lg">{step.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
