@@ -53,10 +53,10 @@ export class ParticleAnimation {
 
   _pickColor() {
     const r = Math.random();
-    if (r < 0.35) return "#06B6D4";       // cyan — dominant
+    if (r < 0.35) return "#06B6D4";       // cyan -dominant
     if (r < 0.60) return "#3B82F6";       // blue
     if (r < 0.85) return "#FFFFFF";       // white
-    return "#EF4444";                     // red — rare accent
+    return "#EF4444";                     // red -rare accent
   }
 
   _createParticles() {

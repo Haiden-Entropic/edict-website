@@ -8,14 +8,14 @@
   --color-edict-accent: #06B6D4;
 }
 
-/* Smooth scroll — only when no motion preference */
+/* Smooth scroll -only when no motion preference */
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
 }
 
-/* Reduced motion — kill all animations and transitions globally */
+/* Reduced motion -kill all animations and transitions globally */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -36,7 +36,7 @@ textarea:focus-visible,
   outline-offset: 2px;
 }
 
-/* Parallax layers — hint the compositor */
+/* Parallax layers -hint the compositor */
 [data-depth] {
   will-change: transform;
 }
@@ -47,7 +47,7 @@ textarea:focus-visible,
   color: #ffffff;
 }
 
-/* Scrollbar — minimal dark */
+/* Scrollbar -minimal dark */
 ::-webkit-scrollbar {
   width: 6px;
 }
