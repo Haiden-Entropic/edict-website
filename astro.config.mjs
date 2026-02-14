@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://edict-website.netlify.app",
+  site: "https://edict.health",
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],

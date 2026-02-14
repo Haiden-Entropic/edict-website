@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://edict-website.netlify.app/sitemap-index.xml
+Sitemap: https://edict.health/sitemap-index.xml
